@@ -8,12 +8,51 @@
     <title>DnD Sheet</title>
 </head>
 <body>
-    <h1>Jin Of the Shadows</h1>
-    <p>
-        <div class="health">
+    <h1 class="h1">Jin of the Shadows</h1>
+    <p> 
+        <div class="health">Health
             <input type="number" class="current-health" value="75" />
             <input type="number" class="max-health" value="100">
         </div>
+        <div class="stats">
+            <div class="strength">
+                Strength
+                <input type="number" class="strength-value" value="13" />
+                +<input type="number" class="strength-mod" value="2" />
+                <button id="d20strength">D20</button>
+            </div>
+            <div class="dexterity">
+                Dexterity<br>
+                <input type="number" class="dexterity" value="13" />
+                +<input type="number" class="dexterity-mod" value="2" />
+                <button id="d20dexterity">D20</button>
+            </div>
+            <div class="constitution">
+                Constitution<br>
+                <input type="number" class="constitution" value="13" />
+                +<input type="number" class="constitution-mod" value="2" />
+                <button id="d20constitution">D20</button>
+            </div>
+            <div class="intelligence">
+                Intelligence<br>
+                <input type="number" class="intelligence" value="13" />
+                +<input type="number" class="intelligence-mod" value="2" />
+                <button id="d20intelligence">D20</button>
+            </div>
+            <div class="wisdom">
+                Wisdom<br>
+                <input type="number" class="wisdom" value="13" />
+                +<input type="number" class="wisdom-mod" value="2" />
+                <button id="d20wisdom">D20</button>
+            </div>
+            <div class="charisma">
+                Charisma<br>
+                <input type="number" class="charisma" value="13" />
+                +<input type="number" class="charisma-mod" value="2" />
+                <button id="d20charisma">D20</button>
+            </div>
+        </div>
+       
 
     </p>
     <scrip src="script.js"></script>

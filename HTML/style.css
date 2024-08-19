@@ -1,15 +1,19 @@
 body{
-    background-color: bisque;
+    background-image: url('Images/parchment-paper-background.jpg');
     
+}
+.h1{
+    text-align: center;
+    background-image: url('Images/scrollbanner-header-on-white-2PHE553.jpg');
+    background-size: cover;
 }
 .health {
     display: flex;
     flex-direction: row;
-    width: 100px;
+    width: 24px;
     padding: 10px;
     border: 2px;
     border-radius: 5px;
-    background-color: bisque;
     text-align: center;
 }
 .current-health {
@@ -19,6 +23,63 @@ body{
 }
 .max-health {
     color: black;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.stats{
+    display: flex;
+    flex-direction:column;
+    width: 24px;
+    padding: 10px;
+    border: 2px;
+    border-radius: 5px;
+    text-align: center;
+}
+.modifiers{
+    display: flow-root;
+}
+.strength {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.strength-value{
+    
+}
+.dexterity{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.constitution{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.intelligence{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.wisdom{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.charisma{
+    color: black;
+    display: flex;
+    flex-direction: row;
     font-size: 24px;
     margin-bottom: 5px;
 }
